@@ -41,3 +41,5 @@ function renderGallery() {
 }
 
 document.addEventListener('DOMContentLoaded', renderGallery);
+
+console.log("test");
