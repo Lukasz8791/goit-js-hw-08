@@ -20,4 +20,3 @@ const loadTimeFromLocalStorage = () => {
 vimeoPlayer.on('timeupdate', throttle(saveTimeToLocalStorage, 1000));
 
 vimeoPlayer.on('loaded', loadTimeFromLocalStorage);
-
